@@ -1,0 +1,29 @@
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
+.items {
+  border-radius: 25px;
+  width: 25rem;
+  max-width: 90%;
+  -webkit-box-shadow: 3px 3px 8px 0px rgba(209, 140, 0, 0.5);
+  -moz-box-shadow: 3px 3px 8px 0px rgba(209, 140, 0, 0.5);
+  box-shadow: 3px 3px 8px 0px rgba(209, 140, 0, 0.5);
+}
+
+.round {
+  border-radius: 25px;
+}
